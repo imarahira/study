@@ -13,6 +13,7 @@ public class StudyConstants {
 	/** 初期表示URL */
 	public static final String INIT_SCREEN_URL = "/initScreen";
 	
+	/** 基本画面 */
+	public static final String TEMPLETE_PATH = "study.html";
 	
-
 }
