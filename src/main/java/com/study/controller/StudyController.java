@@ -31,6 +31,7 @@ public class StudyController {
 		//Bean同士の同じフィールド名のものをコピーしてくれる
 		BeanUtils.copyProperties(form, initSearchBean);
 		
+		//Serviceメソッド呼び出し
 		initSearchBean = service.initSearch(initSearchBean);
 		
 		//formを画面に渡す

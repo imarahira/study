@@ -1,0 +1,30 @@
+/**
+ * study用CSSファイル
+ */
+
+.search-area {
+	width: auto;
+}
+
+.separate-area {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 0px;
+}
+
+.left-area {
+	width: 50%;
+}
+
+.right-area {
+	width: 50%;
+}
+
+.button-area {
+	width: auto;
+}
+
+.parts-area {
+	display: flex;
+	flex-wrap: nowrap;
+}

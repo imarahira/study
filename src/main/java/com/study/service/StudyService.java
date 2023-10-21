@@ -21,9 +21,13 @@ public class StudyService {
 	 */
 	public InitSearchBean initSearch(InitSearchBean param) {
 		
+		//検索結果用Beanをインスタンス
 		InitSearchBean result = new InitSearchBean();
+		
+		//Mapper呼び出し
 		result = mapper.initSearch(param);
 		
+	//取得結果を返す
 	return result;
 	}
 	
